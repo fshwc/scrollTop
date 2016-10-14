@@ -1,2 +1,5 @@
 # scrollTop
 面向对象的思想封装一个返回顶部的功能
+main1.js是平时我们的思路
+main2.js是把功能定义在了scrollto模块进行引用
+main3.js是把整个功能封装成jq的插件后的引用
