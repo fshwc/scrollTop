@@ -9,25 +9,19 @@
 </head>
 <body>
 	<img src="fifth_background.gif" />
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
-	<p>dfg</p>
+	<img src="fifth_background.gif" />
+	<img src="fifth_background.gif" />
+	<img src="fifth_background.gif" />
+	<img src="fifth_background.gif" />
+	<img src="fifth_background.gif" />
+	<img src="fifth_background.gif" />
 	<a href="javascript:" id="top"></a>
 </body>
-<script type="text/javascript" src="requireJS.js" data-main="main1"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="scrollTop.js"></script>
+<script>
+	$(function() {
+		var scroll = new ScrollTop($("#top"),{speed:500,mode:"top"});
+	}())
+</script>
 </html>
