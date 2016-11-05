@@ -1,8 +1,8 @@
 <h1>基于jq，使用面向对象的思想封装一个返回顶部的功能</h1>
-<h4>初始化方法：</h4>
+<h3>初始化方法：</h3>
 <p>new ScrollTop(DOM对象，配置参数)</p>
 <p>例：var scroll = new ScrollTop($("#top"),{speed:500,mode:"top"});</p>
-<h4>可修改的参数有:</h4>
+<h3>可修改的参数有:</h3>
 <table>
 <tr>
 <th>参数名</th><th>类型</th><th>解析</th><th>默认值</th>
